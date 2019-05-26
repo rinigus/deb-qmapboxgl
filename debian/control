@@ -1,0 +1,27 @@
+Source: qmapboxgl
+Priority: optional
+Maintainer: Rinigus <rinigus.git@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Section: libs
+Homepage: https://github.com/mapbox/mapbox-gl-native
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/qmapboxgl.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/qmapboxgl.git
+
+Package: qmapboxgl-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: qmapboxgl (= ${binary:Version}), ${misc:Depends}
+Description: Development package of Qt version of Mapbox GL Native
+ Interactive, thoroughly customizable maps in native Android, iOS, macOS,
+ Node.js, and Qt applications, powered by vector tiles and OpenGL
+
+Package: qmapboxgl
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt version of Mapbox GL Native
+ Interactive, thoroughly customizable maps in native Android, iOS, macOS,
+ Node.js, and Qt applications, powered by vector tiles and OpenGL
+  
