@@ -1,0 +1,21 @@
+From: Rinigus <rinigus.git@gmail.com>
+Date: Sun, 26 May 2019 23:30:48 +0300
+Subject: compile shared library
+
+---
+ mapbox-gl-native-lib.pro | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/mapbox-gl-native-lib.pro b/mapbox-gl-native-lib.pro
+index 15d1343..a4941f8 100644
+--- a/mapbox-gl-native-lib.pro
++++ b/mapbox-gl-native-lib.pro
+@@ -1,7 +1,7 @@
+ TARGET = qmapboxgl
+ TEMPLATE = lib
+ 
+-CONFIG += qt c++14 exceptions warn_off staticlib object_parallel_to_source
++CONFIG += qt c++14 exceptions warn_off object_parallel_to_source
+ CONFIG += use_system-zlib use_icu
+ 
+ # QT += network \
