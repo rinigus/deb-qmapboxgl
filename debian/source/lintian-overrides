@@ -1,0 +1,5 @@
+# JSON License covers JSON test suite included in RapidJSON
+# Since RapidJSON is not included in QMapboxGL and this test
+# is not used, the license has been removed with the corresponding
+# patch.
+qmapboxgl source: license-problem-json-evil debian/patches/0003-removing-JSON-License-since-that-part-is-not-used-in.patch
