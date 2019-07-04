@@ -1,7 +1,7 @@
 Source: qmapboxgl
 Priority: optional
 Maintainer: Rinigus <rinigus.git@gmail.com>
-Build-Depends: debhelper (>= 10), qt5-qmake, qtbase5-dev, libicu-dev
+Build-Depends: debhelper (>= 10), qt5-qmake, qtbase5-dev, libicu-dev, zlib1g-dev
 Standards-Version: 4.1.2
 Section: libs
 Homepage: https://github.com/mapbox/mapbox-gl-native
