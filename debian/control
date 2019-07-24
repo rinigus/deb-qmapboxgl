@@ -20,7 +20,7 @@ Description: Development package of Qt version of Mapbox GL Native
 Package: qmapboxgl
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}, libicu63
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5sql5-sqlite, libicu63
 Description: Qt version of Mapbox GL Native
  Interactive, thoroughly customizable maps in native Android, iOS, macOS,
  Node.js, and Qt applications, powered by vector tiles and OpenGL
